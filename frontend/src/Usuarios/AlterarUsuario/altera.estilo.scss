@@ -1,0 +1,53 @@
+.conteinerAlterar {
+    display: flex;
+    flex-direction: column;
+
+    h1{
+        display: flex;
+        justify-content: center;
+        background-color: #0aa843;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+        width: 50%;
+
+        label{
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        input{
+            height: 2rem;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }        
+        
+    }
+}
+.buttonEnviarAlterar{
+    margin-right: 0.3rem;
+    background-color: #1e17d8;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+    width: 50%;
+}
+.buttonInicioAlterar{
+    background-color: #0ee081;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+    width: 50%;
+}

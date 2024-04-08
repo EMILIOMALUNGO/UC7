@@ -1,0 +1,31 @@
+.conteinerInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        background-color: #0aa843;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        width: 100%;
+        text-align: center;
+    }
+}
+.linksInicio{    
+    margin-top: 1rem;
+    background-color: #e619e2;
+    border-radius: 0.5rem;
+    width: 20%;
+    height: 3rem;
+    
+    h2{
+        text-align: center;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #FFFFFF;
+        font-weight: bolder;
+    }
+}

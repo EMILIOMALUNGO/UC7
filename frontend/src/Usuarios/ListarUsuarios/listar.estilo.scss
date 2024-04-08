@@ -1,0 +1,56 @@
+.conteinerListar {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        background-color: #0aa843;
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+    }
+}
+
+.listarUsuarios {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border: 2px solid #000000;
+    width: 95%;
+
+    table{
+        thead{
+            th{
+                background-color: #128e56;
+                border: 2px solid #000000;
+                font-size: 1.5rem;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            td{
+                background-color: #e3a914;
+                font-size: 1rem;
+                font-weight: bold;
+                border: 2px solid #000000;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
+
+.icones{
+    text-align: center;
+}
+
+.buttonInicioListar {
+    background-color: #0ee081;
+    margin-top: 1rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+    width: 100%;
+}
